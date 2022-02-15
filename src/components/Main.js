@@ -10,12 +10,12 @@ const Main = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/movieshar" element={<HomePage/>}/>
+                <Route path="/movieshar/" element={<HomePage/>}/>
                 <Route path="/movieshar/searchmovies" element={<SearchMovies/>}/>
-                <Route path="searchshows" element={<SearchShows/>}/>
-                <Route path="movies/:id" element={<MovieOverview/>}/>
-                <Route path="shows/:id" element={<ShowOverview/>}/>
-                <Route path="collections/:id" element={<Collections/>} />
+                <Route path="/movieshar/searchshows" element={<SearchShows/>}/>
+                <Route path="/movieshar/movies/:id" element={<MovieOverview/>}/>
+                <Route path="/movieshar/shows/:id" element={<ShowOverview/>}/>
+                <Route path="/movieshar/collections/:id" element={<Collections/>} />
             </Routes>
         </BrowserRouter>
     )
