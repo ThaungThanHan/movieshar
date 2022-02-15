@@ -1,0 +1,19 @@
+.OverviewContainer{
+    display:flex;flex-direction: row;
+}
+.DetailsContainer{
+    flex:1;padding:1rem;
+    &--details{
+        height:"auto";background-color: #FFFFFF;border-radius: 1rem;padding:1rem;
+    }
+}
+.DetailsText{
+    display:flex;flex-direction: row;width:65rem;height:auto;
+    justify-content: space-between;align-items:center;
+    &--column{
+        font-size: 1.2rem;
+    };
+}
+.companiesContainer{
+    border:1px solid purple;background-color: white;border-radius: 1rem;margin-top:1rem;
+}

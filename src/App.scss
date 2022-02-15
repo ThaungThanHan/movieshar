@@ -1,0 +1,9 @@
+.App{
+    max-width:120rem;
+    margin:3rem auto;
+    -webkit-box-shadow: 10px 17px 34px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 17px 34px -9px rgba(0,0,0,0.75);
+    box-shadow: 10px 17px 34px -9px rgba(0,0,0,0.75);
+    min-height:50rem;  
+    background-image: linear-gradient(to right bottom,rgba(black,0.8),rgba(black,0.8)),url('assets/images/moviesbackground.jpg');
+}

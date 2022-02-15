@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="buttonClass"
+  data-testid="button"
+  style={
+    Object {
+      "border": "1px solid red",
+      "height": 30,
+      "opacity": 1,
+      "width": 30,
+    }
+  }
+>
+  This is 
+  hello
+</div>
+`;

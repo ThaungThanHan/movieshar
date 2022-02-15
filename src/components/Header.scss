@@ -1,0 +1,24 @@
+.Header{
+    display:flex;flex-direction: row;
+    align-items: center;justify-content: space-between;padding-left:5rem;padding-right:5rem;
+    background-color:white;
+}
+
+.dropdown{
+    position:relative;cursor:pointer;
+    &:hover{
+        .dropdown-menu{
+            opacity:1;
+            transition:all 1s;
+        }
+    }
+}
+.dropdown-menu{
+    position:absolute;z-index:2;background-color: white;width:5rem;
+    text-align: center;margin-top:.2rem;margin-left:-1rem;opacity:0;padding:-1rem;
+}
+.dropdown-menu p{
+    &:hover{
+        color:red;
+    }
+}
