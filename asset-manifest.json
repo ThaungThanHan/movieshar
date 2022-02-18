@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/movieshar/static/css/main.3e796564.css",
-    "main.js": "/movieshar/static/js/main.16cd1956.js",
+    "main.js": "/movieshar/static/js/main.6566acf4.js",
     "static/media/moviesbackground.jpg": "/movieshar/static/media/moviesbackground.5af5d1f7bd466ffab944.jpg",
     "index.html": "/movieshar/index.html",
     "main.3e796564.css.map": "/movieshar/static/css/main.3e796564.css.map",
-    "main.16cd1956.js.map": "/movieshar/static/js/main.16cd1956.js.map"
+    "main.6566acf4.js.map": "/movieshar/static/js/main.6566acf4.js.map"
   },
   "entrypoints": [
     "static/css/main.3e796564.css",
-    "static/js/main.16cd1956.js"
+    "static/js/main.6566acf4.js"
   ]
 }
